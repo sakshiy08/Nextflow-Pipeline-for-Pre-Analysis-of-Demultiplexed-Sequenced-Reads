@@ -13,6 +13,9 @@ The metadata.csv file, Nextflow script, and the config file should be kept in th
 You may require specifying DSL2 in the config file as follows:
 nextflow.enable.dsl=2
 
-## Run the script as follows:
+## Usage
+
+To run the pipeline, use the following command:
+```bash
 nextflow nextflow.nf
 
