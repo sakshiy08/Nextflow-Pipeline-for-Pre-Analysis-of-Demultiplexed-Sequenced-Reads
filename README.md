@@ -8,9 +8,10 @@ But if the workflow starts from the barcode subdirectories, contanetanes the rea
 
 ## Requirements
 
-A metadata.csv file that has barcode names in Column 1 and corresponding sample names in Column 2 
-The metadata.csv file, Nextflow script, and the config file should be kept in the same directory where the barcode subdirectories are located
-You may require specifying DSL2 in the config file as follows:
++ A metadata.csv file that has barcode names in Column 1 and corresponding sample names in Column 2 
++ The metadata.csv file, Nextflow script, and the config file should be kept in the same directory where the barcode subdirectories are located
++ You may require specifying DSL2 in the config file as follows:
+```bash
 nextflow.enable.dsl=2
 
 ## Usage
