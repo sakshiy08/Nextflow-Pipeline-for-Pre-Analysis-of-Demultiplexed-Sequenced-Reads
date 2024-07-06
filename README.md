@@ -13,6 +13,7 @@ But if the workflow starts from the barcode subdirectories, contanetanes the rea
 + You may require specifying DSL2 in the config file as follows:
 ```bash
 nextflow.enable.dsl=2
+```
 
 ## Usage
 
