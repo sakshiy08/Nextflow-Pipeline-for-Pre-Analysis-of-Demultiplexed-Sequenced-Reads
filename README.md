@@ -6,4 +6,13 @@ This pre-analysis preparation can be done manually or by using a bash script sho
 
 But if the workflow starts from the barcode subdirectories, contanetanes the reads, labels them, and feeds into the downstream analyses. This will make this process fully automated from the start to the end 
 
+## Requirements
+
+A metadata.csv file that has barcode names in Column 1 and corresponding sample names in Column 2 
+The metadata.csv file, Nextflow script, and the config file should be kept in the same directory where the barcode subdirectories are located
+You may require specifying DSL2 in the config file as follows:
+nextflow.enable.dsl=2
+
+## Run the script as follows:
+nextflow nextflow.nf
 
