@@ -66,5 +66,6 @@ workflow {
         | concat_reads
         | fastqc
 }
-jdiidhjjjd
+{jdiidhjjjd
 kh
+jkk}
