@@ -23,7 +23,3 @@ do
     echo "${Green}${Bold}Completed ${reset}: ${field1}"
     echo ""
 done < ${metadata}
-
-
-
-fdsfheu
